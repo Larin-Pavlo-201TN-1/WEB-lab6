@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14pt;
+}
+
+body{
+    background-color: rgb(213, 213, 213);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-property: all;
+    transition: all ease 2.5s;
+}
+
+img:hover {
+    width: 250px;
+    height: 250px;
+}
+
+.Name{
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align:center;
+    font-size:50px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+
+    -webkit-animation: pulsate 5s linear infinite;
+    animation: pulsate 5s linear infinite;
+}
+
+@keyframes pulsate {
+    25% {
+        color: rgb(224, 7, 253);
+        text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px #ffd, 0 0 8px #5bff9d;
+    }
+
+    50% {
+        color: rgb(247, 26, 228);
+        text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px #ffd, 0 0 8px #5bff9d;
+    }
+
+    75% {
+        color: rgb(252, 214, 0);
+        text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px #ffd, 0 0 8px #5bff9d;
+    }
+
+    90% {
+        color: rgb(238, 223, 9);
+        text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px #ffd, 0 0 8px #5bff9d;
+    }
+}
+
+h2{
+    font-size: 20pt;
+    margin: 10px 0 10px 25px;
+}
+
+p, h3{
+    text-indent: 20px;
+    margin: 0 5px 0 5px;
+    text-align: justify;
+}
+
+a{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+pre{
+    color: #146cd0;
+}
+
+.signature{
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 100;
+    margin-right: 50px;
+}
